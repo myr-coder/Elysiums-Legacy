@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 219.43 219.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_ÂÁ_Ï_ÌÌ_È_ËÂÌÚ_176);
+      }
+    </style>
+    <radialGradient id="_ÂÁ_Ï_ÌÌ_È_ËÂÌÚ_176" data-name="¡ÂÁ˚ÏˇÌÌ˚È „‡‰ËÂÌÚ 176" cx="43.4" cy="47.57" fx="43.4" fy="47.57" r="198.33" gradientUnits="userSpaceOnUse">
+      <stop offset=".62" stop-color="#fc5b59"/>
+      <stop offset=".66" stop-color="#f9765e"/>
+      <stop offset=".72" stop-color="#f69365"/>
+      <stop offset=".78" stop-color="#f4a769"/>
+      <stop offset=".84" stop-color="#f3b36c"/>
+      <stop offset=".89" stop-color="#f3b86d"/>
+      <stop offset=".99" stop-color="#f3ffd9"/>
+    </radialGradient>
+  </defs>
+  <g id="sun_01">
+    <circle class="cls-1" cx="109.72" cy="109.72" r="109.72"/>
+  </g>
+</svg>
