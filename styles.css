@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Verlag', sans-serif;
 }
 
 
@@ -13,19 +12,21 @@ body{
 }
 
 
-.hero header .logo h2 a{
+.hero header .logo h2 {
   display: block;
-  font-size: 2em;
-  color: #fff;
+  font-size: 1.5em;
+  font-weight: 400;
+  color:#fff;
   user-select: none;  /*Prevents text selection */
 }
+
 
 .hero header{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 160px;
+  padding: 50px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,9 +43,8 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: white;
-  margin-left: 5em;
+  margin-left: 2.2em;
   font-size: 1.1em;
-  color: #fbfafa;
   font-weight: 600;
   
   border-bottom: 0.125em solid transparent;
@@ -58,92 +58,32 @@ nav ul li:not(:last-child) a:focus{
 }
 
 
-/* nav ul li.active a{
+nav ul li.active a{
   border-bottom: 0.125em solid white; 
-} */
+}
 
  nav ul li.btn a{
   background: transparent;
   color: white;
   border: 0.0625em solid #ffffff;
-  padding: 0.56em 1.25em;
+  padding: 0.59em 1.25em;
   border-radius: 30px;
-  line-height: 1.4;
+  line-height: 1.1;
   font-size: 1.1em;
   font-weight: 600;
-  margin-left: 150px; 
+  margin-left: 2.4em; 
 }
 
 nav ul li.btn:hover a{
   background: white;
-  color: black;
+  color: #44243F;
   border: 0.0625em solid white;
   transition: .4s;
 }
 
- /* ---------------------------------- */
-/*
- header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100; 
-} 
-
-
- .logo{
-font-size: 2em;
-color: #fff;
-user-select: none;  Prevents text selection
-}
-
-BUTTON TEXT INACTIVE 
-.navigation a{
-  position: relative;
-  font-size: 1.1em;
-  color: #fbfafa;
-  font-weight: 600;
-  text-decoration: none;
-  margin-left: 20px;
-  padding: 6px 15px;
-  transition: .5s;
-}
-
- BUTTON TEXT COLOR ON HOVERING 
-.navigation a:hover {  
-  color: #312f2f;
-} 
-
- HOVERING BUBBLE 
-.navigation a span{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: rgb(252, 178, 252);
-   border-radius: 30px;
-   z-index: -1;
-   transform: scale(0);
-   opacity: 0;
-   transition: .5s;
-
-}
-
-.navigation a:hover span
-{
-  transform: scale(1);
-  opacity: 1;
-
-} */
-
 /* ---------------------------------- 
 PARALLAX 1- ART    */
+
 .parallax {
   position: relative;
   display: flex;
@@ -158,17 +98,19 @@ PARALLAX 1- ART    */
 
 #text{
   position: absolute;
-  font-size: 400%;
-  color: #e8eaec;
-  transform: translateY(-200%);
+  font-size: 750%;
+  font-family: 'Verlag', sans-serif;
+  color: white;
+  transform: translateY(-79%);
   z-index: 90;
-
+  font-weight: 850;
+  letter-spacing: 0.5px;
+  word-spacing: 25px;
 }
 
 
 .parallax img{
   position: absolute;
-  
   top: 0;
   bottom: 0;
   width: 100%;
@@ -177,17 +119,11 @@ PARALLAX 1- ART    */
 
 
  .parallax img#wizard{
-  transform: translate(-34%, 53%);
-  height: 60%;
+  transform: translate(-34%, 65%);
+  height: 56%;
   z-index: 300;
 } 
 
-
-.parallax img#blue-flakes{
-  position: fixed;
-  /* transform: translateX(305px); */
-  width: 100%;
-}
 
 .parallax img#right-cliff{
   transform: translate(400px, -20px); 
@@ -242,18 +178,15 @@ PARALLAX 1- ART    */
   transform: translate(107%, 20%); 
   
 }
+
 /* ---------------------------------- 
 PARALLAX 2- CARDS    */
-
 
 .parallax2 {
   display: flex;
   min-height: 100vh;
-  /*align-items: center; */
   justify-content: center;
-
- /* flex-direction: row;
-  flex-wrap: wrap; */
+  text-align: center;
   padding: 6rem 1rem;
   background-image: url(BACKGROUND\ 2.png);
   gap: 1.6em;
@@ -261,20 +194,21 @@ PARALLAX 2- CARDS    */
 
 }
 
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;}
-
 .parallax2 h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 700;
+  padding-top: 50px;
+  color:#44243F;
 }
 
 .parallax2 p {
-  max-width: 52ch;
   padding: 1em;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 1.2em;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 100px;
+  color:#44243F;
 }
 
 .parallax2 a {
@@ -287,19 +221,19 @@ PARALLAX 2- CARDS    */
   font-weight: 700;
   letter-spacing: 0.5px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .parallax2 h3 {
   margin-top: 1em;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 350;
+  color:#44243F;
 }
 
 .card {
   float: left;
   display: flex;
-  max-width: 320px;
+  width: 320px;
   flex-direction: column;
   align-items: center;
   z-index: 400;
@@ -307,7 +241,7 @@ PARALLAX 2- CARDS    */
   padding-bottom: 1rem;
   border-radius: 0.5em;
 
-  background-color: white;
+  background-color: #FDC399;
   box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
 }
 
@@ -335,28 +269,34 @@ PARALLAX 2- CARDS    */
   background-image: url(hot\ air\ balloon.jpg);
 }
 
-.card:nth-of-type(5) .card-img {
-  background-image: url(lake\ moon.jpg);
+.card .zoom-box {
+  transition: transform .2s; 
+  width: 320px;
+  height: 600px;
+  border-radius: 0.5em;
+  background-color: #FDC399;
+  align-items: center;
 }
 
-.card:nth-of-type(6) .card-img {
-  background-image: url(cave.jpg);
+.card .zoom-box:hover {
+  transform: scale(1.055);
+  align-items: center;
 }
+
 
 /* ---------------------------------- 
-CONTENT   */
+DESCRIPTION   */
 .sec{
   position: relative;
   background: #44243F;
   padding: 15px;
   z-index: 400;
-
 }
 
 
 .sec .headline h2{
   font-size: 1.5em;
-  color: #fff;
+  color: #FDC399;
   margin-bottom: 20px;
   padding-left: 350px;
   padding-right: 350px;
@@ -367,7 +307,7 @@ CONTENT   */
 
 
 .sec .story{
-  font-size: 1em;
+  font-size: 1.2em;
   color: #fff;
   font-weight: 300;
   
@@ -375,57 +315,93 @@ CONTENT   */
   padding-left: 350px;
   padding-right: 350px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   column-count: 2;
-  column-gap: 30px;
-  line-height: 2;
-
+  column-gap: 40px;
+  line-height: 1.8;
 }
 
 
 .sec .review{
   font-weight: 100;
   font-size: 1.5em;
-  color: #fff;
   text-align: center;
-  padding-left: 350px;
-  padding-right: 350px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 10px;
   align-items: center;
   line-height: 1.6;
 }
 
 .sec .review h2{
+   padding-left: 390px;
+  padding-right: 390px;
   font-weight: 100;
-  font-size: 1.5em;
-  color: #fff;
+  font-size: 1.6em;
+  color: #FDC399;
+  letter-spacing: 0.5px;
 }
 
 .sec .review h3{
   font-weight: 100;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #fff;
+  letter-spacing: 1.8px;
+  padding-top: 10px;
+}
+
+/* LINKSSS -------------------  */
+.sec ul#links {
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 5px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.sec ul#links li {
+  margin-bottom: 15px;
+}
+
+.sec ul#links li a{
+  color:#FDC399;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-decoration: none;
+  
 }
 
 /* SOCIAL ICONS --------------  */
-.social-icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: column;
-  grid-auto-rows: 1fr;
+.sec #social{
   align-items: center;
+  text-align: center;
 }
 
-.social-icons img{
-  width: 10%;
+#social{
+display: inline-block;
+margin-bottom: 170px;
+margin-top: 10px;
 }
+
+#social li{
+display: inline;
+}
+
+#social li:not(:first-child){
+margin-left: 30px;
+}
+
+#social img{
+  width: 3.2%;
+} 
+
 
 /* CREATOR -------------------  */
 .sec .creator h4{
   font-weight: 100;
-  font-size: 0.8em;
-  color: #fff;
+  font-size: 15px;
+  color:#FDC399;
   align-items: center;
   text-align: center;
+  padding-bottom: 30px;
 }
