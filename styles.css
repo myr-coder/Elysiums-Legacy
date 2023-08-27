@@ -104,8 +104,8 @@ PARALLAX 1- ART    */
   transform: translateY(-79%);
   z-index: 90;
   font-weight: 850;
-  letter-spacing: 0.5px;
-  word-spacing: 25px;
+  letter-spacing: 0.9px;
+  word-spacing: 27px;
 }
 
 
@@ -167,7 +167,7 @@ PARALLAX 1- ART    */
 
 
 .parallax img#front-land{
-  transform: translateY(40px); 
+  transform: translateY(70px); 
   width: 130%;
   z-index: 100;
 }
