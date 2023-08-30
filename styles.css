@@ -2,9 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Verlag', sans-serif;
+  font-family: verlag, sans-serif;
 }
 
+
+@font-face {
+  font-family: verlag;
+  src: url(Verlag-Font-Family/Verlag-Light.otf);}
+
+  @font-face {
+    font-family: verlag;
+    src: url(Verlag-Font-Family/Verlag-XLight.otf);
+    font-weight: normal
+}
+
+
+@font-face {
+  font-family: verlag;
+  src: url(Verlag-Font-Family/Verlag-Black.otf);
+  font-weight: bold;}
+
+  @font-face {
+    font-family: verlag;
+    src: url(Verlag-Font-Family/Verlag-Book.otf);
+    font-weight:lighter;}
 
 body{
   min-height: 100vh;
@@ -15,7 +36,7 @@ body{
 .hero header .logo h2 {
   display: block;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: bold;
   color:#fff;
   user-select: none;  /*Prevents text selection */
 }
@@ -45,7 +66,7 @@ nav ul li a{
   color: white;
   margin-left: 2.2em;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: lighter;
   
   border-bottom: 0.125em solid transparent;
   transition: .4s;
@@ -70,7 +91,7 @@ nav ul li.active a{
   border-radius: 30px;
   line-height: 1.1;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: lighter;
   margin-left: 2.4em; 
 }
 
@@ -99,11 +120,11 @@ PARALLAX 1- ART    */
 #text{
   position: absolute;
   font-size: 750%;
-  font-family: 'Verlag', sans-serif;
+  font-family: verlag, sans-serif;
   color: white;
-  transform: translateY(-79%);
+  transform: translateY(-68%);
   z-index: 90;
-  font-weight: 850;
+  font-weight: bold;
   letter-spacing: 0.9px;
   word-spacing: 27px;
 }
@@ -205,7 +226,6 @@ PARALLAX 2- CARDS    */
   padding: 1em;
   line-height: 1.6;
   font-size: 1.2em;
-  font-weight: 100;
   text-align: center;
   padding-bottom: 100px;
   color:#44243F;
@@ -218,7 +238,7 @@ PARALLAX 2- CARDS    */
   background-color: #44243F;
   color: white;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.5px;
   text-decoration: none;
 }
@@ -226,8 +246,9 @@ PARALLAX 2- CARDS    */
 .parallax2 h3 {
   margin-top: 1em;
   font-size: 1.6rem;
-  font-weight: 350;
+  font-weight: bold;
   color:#44243F;
+  
 }
 
 .card {
@@ -272,7 +293,7 @@ PARALLAX 2- CARDS    */
 
 
  .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.055);
  }
 
 
@@ -295,14 +316,13 @@ DESCRIPTION   */
   padding-top: 90px;
   text-align: justify;
   line-height: 1.8;
+  font-weight: lighter;
 }
 
 
 .sec .story{
   font-size: 1.2em;
   color: #fff;
-  font-weight: 300;
-  
   margin-bottom: 20px;
   padding-left: 350px;
   padding-right: 350px;
@@ -311,7 +331,10 @@ DESCRIPTION   */
   column-count: 2;
   column-gap: 40px;
   line-height: 1.8;
+  font-weight: normal;
 }
+
+
 
 
 .sec .review{
@@ -327,14 +350,14 @@ DESCRIPTION   */
 .sec .review h2{
    padding-left: 390px;
   padding-right: 390px;
-  font-weight: 100;
+  font-weight: bold;
   font-size: 1.6em;
   color: #FDC399;
   letter-spacing: 0.5px;
 }
 
 .sec .review h3{
-  font-weight: 100;
+  font-weight: lighter;
   font-size: 0.8em;
   color: #fff;
   letter-spacing: 1.8px;
