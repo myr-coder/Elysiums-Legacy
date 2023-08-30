@@ -231,6 +231,7 @@ PARALLAX 2- CARDS    */
 }
 
 .card {
+  transition: all 0.3s;
   float: left;
   display: flex;
   width: 320px;
@@ -269,19 +270,10 @@ PARALLAX 2- CARDS    */
   background-image: url(hot\ air\ balloon.jpg);
 }
 
-.card .zoom-box {
-  transition: transform .2s; 
-  width: 320px;
-  height: 600px;
-  border-radius: 0.5em;
-  background-color: #FDC399;
-  align-items: center;
-}
 
-.card .zoom-box:hover {
-  transform: scale(1.055);
-  align-items: center;
-}
+ .card:hover {
+  transform: scale(1.05);
+ }
 
 
 /* ---------------------------------- 
